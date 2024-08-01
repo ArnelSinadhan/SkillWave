@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700 !important;
+  color: white;
+}
+.navbar-brand i {
+  font-size: 24px;
+  color: #ffc27a;
+}
+.navbar-expand-lg {
+  background-color: #6176f7 !important;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #ffc27a !important;
+}
+.navBtn button {
+  background-color: transparent !important;
+  border: none;
+  color: white;
+}
+.navBtn button i {
+  margin-right: 10px;
+}
+button.signUpBtn {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ffc27a, #ff8e53);
+  border-radius: 999px;
+}
+
+/* Home */
+#home {
+  background-color: #6176f7;
+}
+.enrollNowLink {
+  color: #ffc27a;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.enrollNowLink:hover {
+  color: #ffc27a;
+}
+#introduction h3 {
+  color: white;
+  font-size: 60px;
+}
+#introduction p {
+  color: rgb(226, 223, 223);
+}
+.searchBar {
+  background-color: white;
+  height: 60px;
+  position: relative;
+  border-radius: 999px;
+}
+.searchBar input:focus {
+  border-radius: 999px;
+}
+.searchBar button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  border: none;
+  padding: 20px;
+  background-color: #ff8e53;
+  border-radius: 0;
+  color: white;
+  border-radius: 99px;
+}
+.searchBar input {
+  background-color: transparent;
+  border: none;
+}
+.searchBar input::placeholder {
+  color: black;
+  padding-left: 15px;
+}
+
+/* Featured */
+#featured {
+  background-color: #ffffff;
+}
+.featured h2 {
+  font-weight: 600;
+}
+.featured span {
+  color: #3461fd;
+}
+.featured p {
+  color: gray;
+}
+.card {
+  border-radius: 14px !important;
+  border: none !important;
+  box-shadow: 0px 0px 9px 0px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(112, 112, 112, 0.75);
+}
+.card-img-top {
+  position: relative;
+}
+.card-title {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.stars {
+  color: #ffc27a;
+}
+.priceBox button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #ffc27a, #ff8e53);
+}
+.priceBox i {
+  color: white;
+}
+
+/* Category Section */
+#categories-section {
+  background-color: #e7e9eb;
+}
+#categories-section h2 {
+  font-weight: 600;
+}
+
+#categories-section span {
+  color: #3461fd;
+}
+#categories-section p {
+  color: gray;
+}
+.category {
+  background-color: #ffffff;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 30px;
+}
+.category i {
+  font-size: 24px;
+}
+.openLink {
+  color: #ffc27a;
+}
+
+/* About */
+.about h2 {
+  font-weight: 600;
+}
+.about span {
+  color: #3461fd;
+}
+.aboutUs i {
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(90deg, #2af9b1, #20b486);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutUs .students {
+  background: linear-gradient(90deg, #a988f9, #6d3ae9);
+}
+.aboutUs .videos {
+  background: linear-gradient(90deg, #ffa4af, #ee455a);
+}
+.aboutUs .users {
+  background: linear-gradient(90deg, #92daf0, #21c9ff);
+}
+.message {
+  text-align: center;
+  margin: 10px 0;
+  padding: 15px 0;
+  border: 2px solid #ff8e53;
+  color: gray;
+  border-radius: 8px;
+}
+.message:hover {
+  background-color: #ff8e53;
+  color: white;
+}
+
+/* Contact Us */
+.contactUs input {
+  border: none;
+  border-bottom: 2px solid #ee455a;
+  margin-top: 50px;
+}
+.contactUs input::placeholder {
+  font-size: 18px;
+}
+.contactUs textarea {
+  border: none;
+  border-bottom: 2px solid #ee455a;
+  margin-top: 50px;
+}
+.contactUsBtn {
+  background-color: #ff8e53;
+  height: 60px;
+  padding: 0 20px;
+  color: white;
+  border: none;
+}
+.contactUsBtn i {
+  margin-right: 20px;
+}
+.contactInformation h2 {
+  font-weight: 600;
+  font-size: 50px;
+}
+.contactInformation span {
+  color: #3461fd;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+.email,
+.phone,
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  margin-top: 50px;
+  color: gray;
+}
+
+.email i,
+.phone i,
+.location i {
+  color: #ff8e53;
+}
+.socmedLinks button {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 30px;
+  background-color: transparent;
+}
+.socmedLinks i {
+  font-size: 30px;
+}
+.socmedLinks button:hover {
+  background-color: #ff8e53;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #21212f;
+  color: white;
+}
+.footerCol1 a i {
+  margin-bottom: 40px;
+}
+.footerSocMed {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 18px;
+}
+.footerSocMed i:hover {
+  color: #ff8e53;
+}
+.footerNavs {
+  padding: 0;
+}
+.footerNavs li a {
+  color: white;
+  text-decoration: none;
+}
+.footerNavs li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.footerCateg {
+  padding: 0;
+}
+.footerCateg li a {
+  color: white;
+  text-decoration: none;
+}
+.footerCateg li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.footerSubs input {
+  height: 57px;
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: none;
+}
+.footerSubs button {
+  margin-top: 45px;
+  height: 48px;
+  padding: 0 20px;
+  color: white;
+  background: linear-gradient(90deg, #ffc27a, #ff8e53);
+  border: none;
+  border-radius: 99px;
+}

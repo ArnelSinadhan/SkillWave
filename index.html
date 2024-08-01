@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External CSS-->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+
+    <!-- FontAwesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <title>Skill Wave - Your E-Learning Buddy</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#"
+              >SkillWave <i class="fa-solid fa-person-chalkboard"></i
+            ></a>
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Course</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex gap-3 navBtn">
+            <button><i class="fa-solid fa-lock"></i>Login</button>
+            <button class="signUpBtn">Sign up for Free</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End of Navbar -->
+
+    <!-- Banner -->
+    <section id="home" class="py-5">
+      <div class="container">
+        <div class="row justify-content- align-items-center" id="introduction">
+          <div class="col-12 col-lg-6">
+            <a href="#" class="enrollNowLink">Enroll Now To Start!</a>
+            <h3>
+              Explore 999+ Courses from 300 Expert Instructors & Institutions
+            </h3>
+            <p>
+              Unlock Your Potential with SkillWave: Dive into a World of
+              Learning with Access to Over 5000 Courses from 300 Top Instructors
+              and Renowned Institutions. Start Your Journey to Success Today!
+            </p>
+            <form class="d-flex searchBar">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search for Course"
+                aria-label="Search" />
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="images/Saly-10.png" alt="" class="img-fluid p-3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- Featured Section -->
+    <section id="featured" class="py-5">
+      <div class="container featured">
+        <h2>Most <span>Featured Courses</span></h2>
+        <p class="mb-5">
+          Explore Our Most Featured Courses: Unlock top-rated content designed
+          to elevate your skills and knowledge across various fields.
+        </p>
+
+        <div class="row">
+          <div class="col-12 my-2 px-3 col-lg-3">
+            <div class="card">
+              <img src="images/html.png" class="card-img-top" alt="..." />
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text mx-3">Enroll on our HTML Course</p>
+              <div class="StarReview d-flex align-items-center gap-3 mx-3">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="m-0 ml-2">(10)</p>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-between align-items-center priceBox mb-2">
+                <h5 class="mx-3">₱ 1200</h5>
+                <button class="mx-3"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 my-2 px-3 col-lg-3">
+            <div class="card">
+              <img src="images/css.png" class="card-img-top" alt="..." />
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text mx-3">Enroll on our HTML Course</p>
+              <div class="StarReview d-flex align-items-center gap-3 mx-3">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="m-0 ml-2">(9)</p>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-between align-items-center priceBox mb-2">
+                <h5 class="mx-3">₱ 3200</h5>
+                <button class="mx-3"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 my-2 px-3 col-lg-3">
+            <div class="card">
+              <img src="images/javascript.png" class="card-img-top" alt="..." />
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text mx-3">Enroll on our HTML Course</p>
+              <div class="StarReview d-flex align-items-center gap-3 mx-3">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="m-0 ml-2">(10)</p>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-between align-items-center priceBox mb-2">
+                <h5 class="mx-3">₱ 5200</h5>
+                <button class="mx-3"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 my-2 px-3 col-lg-3">
+            <div class="card">
+              <img src="images/nodejs.png" class="card-img-top" alt="..." />
+              <h5 class="card-title">NodeJs</h5>
+              <p class="card-text mx-3">Enroll on our NodeJs Course</p>
+              <div class="StarReview d-flex align-items-center gap-3 mx-3">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="m-0 ml-2">(10)</p>
+              </div>
+              <hr />
+              <div
+                class="d-flex justify-content-between align-items-center priceBox mb-2">
+                <h5 class="mx-3">₱ 5000</h5>
+                <button class="mx-3"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Featured Section -->
+
+    <!-- Category Section -->
+    <section id="categories-section" class="py-5">
+      <div class="container" id="categories">
+        <h2>Most <span>Popular Category</span></h2>
+        <p class="mb-5">
+          Explore our most popular category, where you'll find the best and most
+          sought-after courses tailored to meet your learning goals and
+          interests.
+        </p>
+
+        <div class="row p-3 text-center" id="resources">
+          <div class="col-12 col-lg-3">
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-pen-nib"></i>
+              <p class="m-0">Design</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-user-tie"></i>
+              <p class="m-0">LifeStyle</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-chart-line"></i>
+              <p class="m-0">Personal Development</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-code"></i>
+              <p class="m-0">Web Dev</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-camera"></i>
+              <p class="m-0">Photography</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-dumbbell"></i>
+              <p class="m-0">Health & Fitness</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-people-group"></i>
+              <p class="m-0">Marketing</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-music"></i>
+              <p class="m-0">Music</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-coins"></i>
+              <p class="m-0">Finance</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-business-time"></i>
+              <p class="m-0">Business</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-database"></i>
+              <p class="m-0">Data Science</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+
+            <div class="category d-flex align-items-center gap-4 my-2">
+              <i class="fa-solid fa-person-chalkboard"></i>
+              <p class="m-0">Teaching</p>
+              <i class="fa-solid fa-up-right-from-square openLink"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Category Section -->
+
+    <!-- About Us -->
+    <section id="about" class="py-5">
+      <div class="container about" id="mission">
+        <h2>About <span>Us</span></h2>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-8">
+            <p class="text-justify">
+              At SkillWave, our mission is to empower individuals by providing
+              accessible, high-quality education that transforms lives. We are
+              dedicated to delivering innovative learning experiences that
+              inspire and equip our users with the skills and knowledge needed
+              to excel in their personal and professional pursuits. By offering
+              a diverse range of expertly curated courses and resources, we aim
+              to foster a community of lifelong learners committed to achieving
+              their full potential and making a positive impact in their fields
+              and communities.
+            </p>
+            <div class="row mt-5">
+              <div
+                class="col-12 col-lg-3 d-flex align-items-center justify-content-center aboutUs gap-3 my-3">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <h3>199</h3>
+                  <p>Instructor</p>
+                </div>
+              </div>
+
+              <div
+                class="col-12 col-lg-3 d-flex align-items-center justify-content-center aboutUs gap-3 my-3">
+                <i class="fa-solid fa-user-group students"></i>
+                <div>
+                  <h3>1000+</h3>
+                  <p>Students</p>
+                </div>
+              </div>
+
+              <div
+                class="col-12 col-lg-3 d-flex align-items-center justify-content-center aboutUs gap-3 my-3">
+                <i class="fa-solid fa-video videos"></i>
+                <div>
+                  <h3>2999+</h3>
+                  <p>Videos</p>
+                </div>
+              </div>
+
+              <div
+                class="col-12 col-lg-3 d-flex align-items-center justify-content-center aboutUs gap-3 my-3">
+                <i class="fa-solid fa-users users"></i>
+                <div>
+                  <h3>10000+</h3>
+                  <p>Users</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="images/aboutus.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Contact Us -->
+    <section id="contact">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 contactInformation">
+            <h2 class="pb-5"
+              >Let's Let’s discuss on something <span>cool</span> together</h2
+            >
+            <div class="contactInfo my-5">
+              <div class="email">
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <p class="m-0">skillwave@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="fa-solid fa-phone"></i>
+                <p class="m-0">+63-123-456-789</p>
+              </div>
+
+              <div class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="m-0">Antipolo City Philippines</p>
+              </div>
+
+              <div class="socmedLinks my-5">
+                <button>
+                  <i class="fa-brands fa-facebook-f"></i>
+                </button>
+                <button>
+                  <i class="fa-brands fa-instagram"></i>
+                </button>
+                <button>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form action="">
+              <h2 class="mb-5">I'm Interested in...</h2>
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <div class="message">UI/UX course</div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="message">Web Design course</div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="message">HTML course</div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="message">Graphic Design course</div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="message">Other</div>
+                </div>
+              </div>
+              <div class="mt-5 d-flex flex-column gap-3 contactUs">
+                <input type="text" placeholder="Your name" />
+                <input type="text" placeholder="Your email" />
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Your message"></textarea>
+              </div>
+              <button class="mt-5 contactUsBtn"
+                ><i class="fa-solid fa-paper-plane"></i>Send message</button
+              >
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Us -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-3 footerCol1">
+            <a href="#" class="navbar-brand">
+              SkillWave <i class="fa-solid fa-person-chalkboard"></i>
+            </a>
+            <h3>Contact Us</h3>
+            <p>Call: +639-123-4567</p>
+            <p>Upper Citadel, Barangay Dela Paz, Antipolo Rizal</p>
+            <p>Email: skillwave123@gmail.com</p>
+            <div class="footerSocMed">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Explore</h3>
+            <ul class="footerNavs">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Course</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h3>Category</h3>
+            <ul class="footerCateg">
+              <li>
+                <a href="">Design</a>
+              </li>
+              <li>
+                <a href="">Development</a>
+              </li>
+              <li>
+                <a href="">Marketing</a>
+              </li>
+              <li>
+                <a href="">Business</a>
+              </li>
+              <li>
+                <a href="">LifeStyle</a>
+              </li>
+              <li>
+                <a href="">Photography</a>
+              </li>
+              <li>
+                <a href="">Music</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 footerSubs">
+            <h3>Subscribe</h3>
+            <p>
+              Subscribe to our newsletter to stay updated with the latest news,
+              exclusive offers, and special events
+            </p>
+            <input type="text" placeholder="Email here" />
+            <button>Subscribe Now</button>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center"
+          >&copy; 2024 SkillWave Inc. All rights reserved.</p
+        >
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
